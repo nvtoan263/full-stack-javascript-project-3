@@ -8,6 +8,8 @@ import { CheckoutFormComponent } from './components/checkout-form/checkout-form.
 import { ProductItemComponent } from './components/product-item/product-item.component';
 import { ProductListComponent } from './components/product-list/product-list.component';
 import { ProductItemDetailComponent } from './components/product-item-detail/product-item-detail.component';
+import { CartComponent } from './components/cart/cart.component';
+import { UserInfoComponent } from './components/cart/user-info/user-info.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { ProductItemDetailComponent } from './components/product-item-detail/pro
     CheckoutFormComponent,
     ProductItemComponent,
     ProductListComponent,
-    ProductItemDetailComponent
+    ProductItemDetailComponent,
+    CartComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
