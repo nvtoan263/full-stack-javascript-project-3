@@ -22,8 +22,7 @@ On the same terminal, run the command
 ng serve
      
 
-#### Sample request:
-Navigate to 
+#### Testout My Store app at: 
 http://localhost:4200/
 
 The app will automatically reload if you change any of the source files.
