@@ -3,6 +3,7 @@ import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { Router } from '@angular/router';
 import { Product } from 'src/app/model/product';
 import { CartService } from 'src/app/services/cart.service';
+//import { MessageService } from 'primeng/api';
 
 @Component({
   selector: 'app-cart',
@@ -58,5 +59,7 @@ export class CartComponent implements OnInit {
     localStorage.setItem('products', JSON.stringify(products));
     this.refresh();
     this.calculateTotal();
+    const message = `Cart has been updated!!`;
+    alert(message);
   }
 }
